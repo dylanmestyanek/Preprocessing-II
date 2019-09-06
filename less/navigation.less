@@ -1,1 +1,49 @@
 // Navigation Styles here
+header {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    nav {
+        height: 110px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px dashed grey;
+        padding-bottom: 20px;
+    
+        .logoText {
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 20px 20px 40px;
+            font-size: 1.8rem;
+        
+        }
+
+        @media @mobile {
+            flex-direction: column;
+        }
+    }
+
+    .funBusImg {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .introToFunBus {
+        padding-top: 10px;
+        width: 70%;
+        border-bottom: 2px dashed grey;
+    }
+}
